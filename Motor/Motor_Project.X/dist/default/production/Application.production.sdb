@@ -1,0 +1,251 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"8 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\ECU_Layer/BUTTON/btn.c
+[e E3032 . `uc
+BUTTON_ACTIVE_HIGH 0
+BUTTON_ACTIVE_LOW 1
+]
+[e E3028 . `uc
+BUTTON_PRESSED 0
+BUTTON_RELEASED 1
+]
+"24
+[e E2989 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"17 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\ECU_Layer/LED/ecu_led.c
+[e E2985 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"44
+[e E2989 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"18 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\ECU_Layer/RELAY/Relay.c
+[e E2985 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"47
+[e E2989 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"28 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\MCAL_Layer/GPIO/hal_gpio.c
+[e E2985 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"58
+[e E2989 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"128
+[e E2978 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+"10 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\Application.c
+[e E2968 . `uc
+GPIO_PIN0 0
+GPIO_PIN1 1
+GPIO_PIN2 2
+GPIO_PIN3 3
+GPIO_PIN4 4
+GPIO_PIN5 5
+GPIO_PIN6 6
+GPIO_PIN7 7
+]
+[e E2978 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2985 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+[e E2989 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"32 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\ECU_Layer/MOTOR/Motor.c
+[e E2989 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"35 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\Application.c
+[v _main main `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\ECU_Layer/MOTOR/Motor.c
+[v _dc_motor_initialize dc_motor_initialize `(uc  1 e 1 0 ]
+"24
+[v _dc_motor_move_forward dc_motor_move_forward `(uc  1 e 1 0 ]
+"52
+[v _dc_motor_stop dc_motor_stop `(uc  1 e 1 0 ]
+"20 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\MCAL_Layer/GPIO/hal_gpio.c
+[v _gpio_pin_direction_intialize gpio_pin_direction_intialize `(uc  1 e 1 0 ]
+"58
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+"82
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+"93
+[v _gpio_pin_toggle gpio_pin_toggle `(uc  1 e 1 0 ]
+"108
+[v _gpio_pin_intialize gpio_pin_intialize `(uc  1 e 1 0 ]
+"8 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\Application.c
+[v _ret ret `uc  1 e 1 0 ]
+[s S24 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"10
+[s S340 . 2 `[2]S24 1 motor_pins 2 0 ]
+[v _moto_1 moto_1 `S340  1 e 2 0 ]
+"22
+[v _moto_2 moto_2 `S340  1 e 2 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC18Fxxxx_DFP/1.4.151/xc8\pic\include\proc\pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"189
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"360
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"535
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"677
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"880
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"992
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1104
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1216
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1328
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1380
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1602
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1824
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2046
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2268
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"10 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\MCAL_Layer/GPIO/hal_gpio.c
+[v _LAT_REG LAT_REG `[5]*.39VEuc  1 e 10 0 ]
+"12
+[v _TRIS_REG TRIS_REG `[5]*.39VEuc  1 e 10 0 ]
+"14
+[v _PORT_REG PORT_REG `[5]*.39VEuc  1 e 10 0 ]
+"35 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\Application.c
+[v _main main `(i  1 e 2 0 ]
+{
+"52
+} 0
+"52 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\ECU_Layer/MOTOR/Motor.c
+[v _dc_motor_stop dc_motor_stop `(uc  1 e 1 0 ]
+{
+"54
+[v dc_motor_stop@ret ret `uc  1 a 1 11 ]
+[s S24 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"52
+[s S340 . 2 `[2]S24 1 motor_pins 2 0 ]
+[v dc_motor_stop@motor_config motor_config `*.39S340  1 p 2 9 ]
+"64
+} 0
+"24
+[v _dc_motor_move_forward dc_motor_move_forward `(uc  1 e 1 0 ]
+{
+"26
+[v dc_motor_move_forward@ret ret `uc  1 a 1 11 ]
+[s S24 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"24
+[s S340 . 2 `[2]S24 1 motor_pins 2 0 ]
+[v dc_motor_move_forward@motor_config motor_config `*.39S340  1 p 2 9 ]
+"36
+} 0
+"58 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\MCAL_Layer/GPIO/hal_gpio.c
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_write_logic@str str `*.39CS24  1 p 2 0 ]
+[v gpio_pin_write_logic@LOG LOG `E2989  1 p 1 2 ]
+"79
+} 0
+"10 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\ECU_Layer/MOTOR/Motor.c
+[v _dc_motor_initialize dc_motor_initialize `(uc  1 e 1 0 ]
+{
+"12
+[v dc_motor_initialize@ret ret `uc  1 a 1 10 ]
+[s S24 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+"10
+[s S340 . 2 `[2]S24 1 motor_pins 2 0 ]
+[v dc_motor_initialize@motor_config motor_config `*.39S340  1 p 2 8 ]
+"22
+} 0
+"20 D:\Engineering\Embedded Systems Diploma\2- Microcontroller Interfacing\Test\Application\MCAL_Layer/GPIO/hal_gpio.c
+[v _gpio_pin_direction_intialize gpio_pin_direction_intialize `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 PIN 1 0 :3:0 
+`uc 1 PORT 1 0 :3:3 
+`uc 1 Direction 1 0 :1:6 
+`uc 1 Logic 1 0 :1:7 
+]
+[v gpio_pin_direction_intialize@str str `*.39CS24  1 p 2 0 ]
+"41
+} 0
